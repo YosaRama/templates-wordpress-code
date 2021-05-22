@@ -1,0 +1,18 @@
+$color_green: rgb(107, 201, 13);
+
+#hideText {
+  h2 {
+    color: $color_green !important;
+    transition: all 0.3s ease;
+  }
+  &:hover {
+    cursor: pointer;
+    color: yellow !important;
+  }
+  &.hide {
+    h2 {
+      color: blue !important;
+      font-size: large;
+    }
+  }
+}

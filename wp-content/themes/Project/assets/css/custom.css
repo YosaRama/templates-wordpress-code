@@ -1,0 +1,13 @@
+#hideText h2 {
+  color: #6bc90d!important;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease
+}
+#hideText:hover {
+  cursor: pointer;
+  color: #ff0!important
+}
+#hideText.hide h2 {
+  color: #00f!important;
+  font-size: large
+}
